@@ -40,7 +40,7 @@
   <ItemGroup>
     <Reference Include="CommonModule, Version=2007.7.1.1, Culture=neutral, PublicKeyToken=85214dfa4b6c6c26, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\tmis\CommonModule.dll</HintPath>
+      <HintPath>C:\TMIS\CommonModule.dll</HintPath>
     </Reference>
     <Reference Include="Excel, Version=1.3.0.0, Culture=neutral">
       <SpecificVersion>False</SpecificVersion>

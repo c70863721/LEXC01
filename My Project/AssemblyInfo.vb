@@ -31,7 +31,7 @@ Imports System.Runtime.InteropServices
 ' 指定為預設值:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2012.12.1.1")> 
-<Assembly: AssemblyFileVersion("2012.12.1.1")> 
+<Assembly: AssemblyVersion("2012.10.8.11")> 
+<Assembly: AssemblyFileVersion("2012.10.8.11")> 
 <Assembly: AssemblyKeyFile("C:\TMIS\publickey.snk")> 
 <Assembly: AssemblyDelaySign(True)> 

@@ -46,6 +46,9 @@ Partial Class LEXC01
         Me.RadioButton1 = New System.Windows.Forms.RadioButton
         Me.RadioButton2 = New System.Windows.Forms.RadioButton
         Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton
+        Me.TextBox1 = New System.Windows.Forms.TextBox
+        Me.Button1 = New System.Windows.Forms.Button
         CType(Me.SpiChangeLanguage, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.StatusBarPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -113,7 +116,6 @@ Partial Class LEXC01
         '
         'ToolBarButton4
         '
-        Me.ToolBarButton4.Enabled = False
         Me.ToolBarButton4.ImageIndex = 3
         Me.ToolBarButton4.Name = "ToolBarButton4"
         Me.ToolBarButton4.Text = "查詢"
@@ -133,7 +135,6 @@ Partial Class LEXC01
         '
         'ToolBarButton7
         '
-        Me.ToolBarButton7.Enabled = False
         Me.ToolBarButton7.ImageIndex = 6
         Me.ToolBarButton7.Name = "ToolBarButton7"
         Me.ToolBarButton7.Text = "匯出"
@@ -223,13 +224,13 @@ Partial Class LEXC01
         'ColumnHeader14
         '
         Me.ColumnHeader14.Text = "條碼"
-        Me.ColumnHeader14.Width = 183
+        Me.ColumnHeader14.Width = 181
         '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.RadioButton1.Location = New System.Drawing.Point(221, 52)
+        Me.RadioButton1.Location = New System.Drawing.Point(221, 76)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(95, 16)
         Me.RadioButton1.TabIndex = 30
@@ -241,7 +242,7 @@ Partial Class LEXC01
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.RadioButton2.Location = New System.Drawing.Point(399, 52)
+        Me.RadioButton2.Location = New System.Drawing.Point(399, 76)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(95, 16)
         Me.RadioButton2.TabIndex = 30
@@ -253,19 +254,50 @@ Partial Class LEXC01
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaption
-        Me.DataGridView1.Location = New System.Drawing.Point(192, 83)
+        Me.DataGridView1.Location = New System.Drawing.Point(192, 105)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(607, 358)
+        Me.DataGridView1.Size = New System.Drawing.Size(607, 336)
         Me.DataGridView1.TabIndex = 31
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.RadioButton3.Location = New System.Drawing.Point(561, 76)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(167, 16)
+        Me.RadioButton3.TabIndex = 30
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "根據料卷查打在那些板子上"
+        Me.RadioButton3.UseVisualStyleBackColor = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(216, 48)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(252, 22)
+        Me.TextBox1.TabIndex = 32
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(492, 46)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 33
+        Me.Button1.Text = "添加"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'LEXC01
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 466)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.StatusBar1)
@@ -279,8 +311,11 @@ Partial Class LEXC01
         Me.Controls.SetChildIndex(Me.StatusBar1, 0)
         Me.Controls.SetChildIndex(Me.RadioButton1, 0)
         Me.Controls.SetChildIndex(Me.RadioButton2, 0)
+        Me.Controls.SetChildIndex(Me.RadioButton3, 0)
         Me.Controls.SetChildIndex(Me.SpiChangeLanguage, 0)
         Me.Controls.SetChildIndex(Me.DataGridView1, 0)
+        Me.Controls.SetChildIndex(Me.TextBox1, 0)
+        Me.Controls.SetChildIndex(Me.Button1, 0)
         CType(Me.SpiChangeLanguage, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.StatusBarPanel1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -312,4 +347,7 @@ Partial Class LEXC01
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class
