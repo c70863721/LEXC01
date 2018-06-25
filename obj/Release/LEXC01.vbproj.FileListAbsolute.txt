@@ -14,3 +14,13 @@ F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.vbproj.GenerateResou
 F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.dll
 F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.xml
 F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.pdb
+D:\Server_data_dll\LEXC01.dll
+D:\Server_data_dll\LEXC01.pdb
+D:\Server_data_dll\LEXC01.xml
+D:\source_cn\LEXC01-2018.5.20.2\obj\Release\LEXC01.vbprojResolveAssemblyReference.cache
+D:\source_cn\LEXC01-2018.5.20.2\obj\Release\LEXC01.LEXC01.resources
+D:\source_cn\LEXC01-2018.5.20.2\obj\Release\LEXC01.Resources.resources
+D:\source_cn\LEXC01-2018.5.20.2\obj\Release\LEXC01.vbproj.GenerateResource.Cache
+D:\source_cn\LEXC01-2018.5.20.2\obj\Release\LEXC01.dll
+D:\source_cn\LEXC01-2018.5.20.2\obj\Release\LEXC01.xml
+D:\source_cn\LEXC01-2018.5.20.2\obj\Release\LEXC01.pdb
