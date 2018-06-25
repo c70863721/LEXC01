@@ -1,0 +1,16 @@
+C:\TMIS_DLL\LEXC01.dll
+C:\TMIS_DLL\LEXC01.pdb
+C:\TMIS_DLL\LEXC01.xml
+D:\編程\ssssssssfffffffffffccccccccc\LEXC01-2012.10.8.12\obj\Release\LEXC01.vbprojResolveAssemblyReference.cache
+D:\編程\ssssssssfffffffffffccccccccc\LEXC01-2012.10.8.12\obj\Release\LEXC01.LEXC01.resources
+D:\編程\ssssssssfffffffffffccccccccc\LEXC01-2012.10.8.12\obj\Release\LEXC01.Resources.resources
+D:\編程\ssssssssfffffffffffccccccccc\LEXC01-2012.10.8.12\obj\Release\LEXC01.vbproj.GenerateResource.Cache
+D:\編程\ssssssssfffffffffffccccccccc\LEXC01-2012.10.8.12\obj\Release\LEXC01.dll
+D:\編程\ssssssssfffffffffffccccccccc\LEXC01-2012.10.8.12\obj\Release\LEXC01.xml
+D:\編程\ssssssssfffffffffffccccccccc\LEXC01-2012.10.8.12\obj\Release\LEXC01.pdb
+F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.LEXC01.resources
+F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.Resources.resources
+F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.vbproj.GenerateResource.Cache
+F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.dll
+F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.xml
+F:\vb学习的开始\LEXC01-2012.10.8.12\obj\Release\LEXC01.pdb

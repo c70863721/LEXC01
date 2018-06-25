@@ -20,35 +20,36 @@ Partial Class LEXC01
     '請不要使用程式碼編輯器進行修改。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LEXC01))
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        Me.ToolBar1 = New System.Windows.Forms.ToolBar
-        Me.ToolBarButton1 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton2 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton3 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton4 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton5 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton6 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton7 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton8 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton9 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton10 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton11 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton12 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton13 = New System.Windows.Forms.ToolBarButton
-        Me.ToolBarButton14 = New System.Windows.Forms.ToolBarButton
-        Me.StatusBar1 = New System.Windows.Forms.StatusBar
-        Me.StatusBarPanel1 = New System.Windows.Forms.StatusBarPanel
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog
-        Me.BarLV = New System.Windows.Forms.ListView
-        Me.ColumnHeader14 = New System.Windows.Forms.ColumnHeader
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton
-        Me.TextBox1 = New System.Windows.Forms.TextBox
-        Me.Button1 = New System.Windows.Forms.Button
+        Me.ToolBar1 = New System.Windows.Forms.ToolBar()
+        Me.ToolBarButton1 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton2 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton3 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton4 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton5 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton6 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton7 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton8 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton9 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton10 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton11 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton12 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton13 = New System.Windows.Forms.ToolBarButton()
+        Me.ToolBarButton14 = New System.Windows.Forms.ToolBarButton()
+        Me.StatusBar1 = New System.Windows.Forms.StatusBar()
+        Me.StatusBarPanel1 = New System.Windows.Forms.StatusBarPanel()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.BarLV = New System.Windows.Forms.ListView()
+        Me.ColumnHeader14 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         CType(Me.SpiChangeLanguage, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.StatusBarPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,7 +86,7 @@ Partial Class LEXC01
         Me.ToolBar1.ButtonSize = New System.Drawing.Size(40, 35)
         Me.ToolBar1.Divider = False
         Me.ToolBar1.DropDownArrows = True
-        Me.ToolBar1.Font = New System.Drawing.Font("新細明體", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.ToolBar1.Font = New System.Drawing.Font("PMingLiU", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.ToolBar1.ImageList = Me.ImageList1
         Me.ToolBar1.Location = New System.Drawing.Point(0, 0)
         Me.ToolBar1.Name = "ToolBar1"
@@ -242,7 +243,7 @@ Partial Class LEXC01
         '
         Me.RadioButton2.AutoSize = True
         Me.RadioButton2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.RadioButton2.Location = New System.Drawing.Point(399, 76)
+        Me.RadioButton2.Location = New System.Drawing.Point(337, 76)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(95, 16)
         Me.RadioButton2.TabIndex = 30
@@ -265,19 +266,19 @@ Partial Class LEXC01
         '
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.RadioButton3.Location = New System.Drawing.Point(561, 76)
+        Me.RadioButton3.Location = New System.Drawing.Point(451, 76)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(167, 16)
+        Me.RadioButton3.Size = New System.Drawing.Size(149, 16)
         Me.RadioButton3.TabIndex = 30
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "根據料卷查打在那些板子上"
+        Me.RadioButton3.Text = "料卷查板子(For绑工单)"
         Me.RadioButton3.UseVisualStyleBackColor = False
         '
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(216, 48)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(252, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(252, 21)
         Me.TextBox1.TabIndex = 32
         '
         'Button1
@@ -289,6 +290,18 @@ Partial Class LEXC01
         Me.Button1.Text = "添加"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.RadioButton4.Location = New System.Drawing.Point(622, 76)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(83, 16)
+        Me.RadioButton4.TabIndex = 30
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "料卷查板子"
+        Me.RadioButton4.UseVisualStyleBackColor = False
+        '
         'LEXC01
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -297,6 +310,7 @@ Partial Class LEXC01
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
@@ -312,6 +326,7 @@ Partial Class LEXC01
         Me.Controls.SetChildIndex(Me.RadioButton1, 0)
         Me.Controls.SetChildIndex(Me.RadioButton2, 0)
         Me.Controls.SetChildIndex(Me.RadioButton3, 0)
+        Me.Controls.SetChildIndex(Me.RadioButton4, 0)
         Me.Controls.SetChildIndex(Me.SpiChangeLanguage, 0)
         Me.Controls.SetChildIndex(Me.DataGridView1, 0)
         Me.Controls.SetChildIndex(Me.TextBox1, 0)
@@ -350,4 +365,5 @@ Partial Class LEXC01
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
 End Class
